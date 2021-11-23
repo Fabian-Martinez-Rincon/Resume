@@ -101,7 +101,8 @@ body
 }
 .contactInfo ul li .icon
 {
-    display: inline-block;
+    display:list-item;
+    
     width: 30px;
     font-size: 18px;
     color: #03a9f4;
