@@ -107,6 +107,13 @@ body
     font-size: 18px;
     color: #03a9f4;
 }
+i{
+    display:list-item;
+    
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
 .contactInfo ul li span
 {
     color: #fff;
@@ -115,6 +122,7 @@ body
 .contactInfo.education li
 {
     margin-bottom: 15px;
+    
 }
 .contactInfo.education h5
 {
