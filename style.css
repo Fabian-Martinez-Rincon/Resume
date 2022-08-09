@@ -10,7 +10,7 @@
 }
 body
 {
-    background: lightblue;
+    background: #1b4958;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,7 +160,7 @@ i{
 .container .right_Side
 {
     position: relative;
-    background: #fff;
+    background: #181a1b;
     padding: 40px;
 }
 .about
@@ -169,14 +169,14 @@ i{
 }
 .title2
 {
-    color: #003147;
+    color: #0081bd;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
 p
 {
-    color: #333;
+    color: rgb(225, 224, 224);
 }
 .about .box
 {
@@ -202,6 +202,7 @@ p
 }
 .skills .box
 {
+    
     position: relative;
     width: 100%;
     display: grid;
@@ -220,7 +221,7 @@ p
     position: relative;
     width: 100%;
     height: 10px;
-    background: #f0f0f0;
+    background: #202325;
 }
 .skills .box .percent div
 {
@@ -280,3 +281,25 @@ p
         grid-template-columns: repeat(1,1,fr);
     }
 }
+
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--white);
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--black);
+    border-radius: 0.8rem;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
