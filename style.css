@@ -10,11 +10,17 @@
 }
 body
 {
-    background: #1b4958;
+    background: #3F2305;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family: 'Open Sans';
+    font-size: 1.125rem;
+    color: #FFFFFF;
+    position: relative;
+    background-color: #252829;
+    overflow-wrap: break-word;
 }
 .container
 {
@@ -22,7 +28,7 @@ body
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    background: #fff;
+    background: #000000;
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr  2fr;
@@ -32,7 +38,7 @@ body
 .container .left_Side
 {
     position: relative;
-    background: #003147;
+    background: #F2EAD3;
     padding: 40px;
 }
 .profileText
@@ -63,7 +69,7 @@ body
 }
 .profileText h2
 {
-    color: #fff;
+    color: #000000;
     font-size: 1.5em;
     margin-top: 20px;
     text-transform: uppercase;
@@ -82,7 +88,7 @@ body
 }
 .title
 {
-    color: #fff;
+    color: #000000;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
@@ -116,7 +122,7 @@ i{
 }
 .contactInfo ul li span
 {
-    color: #fff;
+    color: #000000;
     font-weight: 300;
 }
 .contactInfo.education li
@@ -131,12 +137,12 @@ i{
 }
 .contactInfo.education h4:nth-child(2)
 {
-    color: #fff;
+    color: #000000;
     font-weight: 500;
 }
 .contactInfo.education h4
 {
-    color: #fff;
+    color: #000000;
     font-weight: 300;
 }
 
@@ -160,7 +166,7 @@ i{
 .container .right_Side
 {
     position: relative;
-    background: #181a1b;
+    background: #DFD7BF;
     padding: 40px;
 }
 .about
@@ -176,7 +182,7 @@ i{
 }
 p
 {
-    color: rgb(225, 224, 224);
+    color: rgb(3, 3, 3);
 }
 .about .box
 {
@@ -239,7 +245,7 @@ p
 .interest ul li
 {
     list-style: none;
-    color: #333;
+    color: #000000;
     font-weight: 500;
     margin: 10px 0;
 }
