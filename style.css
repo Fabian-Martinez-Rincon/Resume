@@ -6,7 +6,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
+    
 }
 body
 {
@@ -16,11 +17,18 @@ body
     align-items: center;
     min-height: 100vh;
     font-family: 'Open Sans';
-    font-size: 1.125rem;
+    font-size: 1.07rem;
     color: #FFFFFF;
     position: relative;
     background-color: #252829;
     overflow-wrap: break-word;
+    
+}
+hr {
+    display: block;
+    padding: 0;
+    border: none;
+    border-top: 2px  solid rgb(57 53 53 / 20%);
 }
 .container
 {
@@ -28,11 +36,8 @@ body
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    background: #000000;
     margin: 50px;
-    display: grid;
     grid-template-columns: 1fr  2fr;
-    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 
 }
 .container .left_Side
@@ -48,7 +53,8 @@ body
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+    border-bottom: 2px solid rgb(57 53 53 / 20%);
 }
 .profileText .imgBx
 {
@@ -116,8 +122,6 @@ body
 }
 i{
     display:list-item;
-    
-    width: 30px;
     font-size: 18px;
     color: #000000;
 }
@@ -128,7 +132,7 @@ i{
 }
 .contactInfo.education li
 {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     
 }
 .right_Side ul li
@@ -171,7 +175,7 @@ i{
 .container .right_Side
 {
     position: relative;
-    background: #DFD7BF;
+    background: #F2EAD3;
     padding: 40px;
 }
 .about
