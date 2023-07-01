@@ -105,20 +105,21 @@ body
     margin: 10px 0;
     cursor: pointer;
 }
+
 .contactInfo ul li .icon
 {
     display:list-item;
     
     width: 30px;
     font-size: 18px;
-    color: #03a9f4;
+    color: #000000;
 }
 i{
     display:list-item;
     
     width: 30px;
     font-size: 18px;
-    color: #03a9f4;
+    color: #000000;
 }
 .contactInfo ul li span
 {
@@ -130,9 +131,13 @@ i{
     margin-bottom: 15px;
     
 }
+.right_Side ul li
+{
+    color: #000000;
+}
 .contactInfo.education h5
 {
-    color: #03a9f4;
+    color: #394867;
     font-weight: 500;
 }
 .contactInfo.education h4:nth-child(2)
@@ -161,7 +166,7 @@ i{
     top: 0;
     left: 0;
     height: 100%;
-    background-color: #03a9f4;
+    background-color: #6b6b6b;
 }
 .container .right_Side
 {
@@ -175,7 +180,7 @@ i{
 }
 .title2
 {
-    color: #0081bd;
+    color: #394867;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
