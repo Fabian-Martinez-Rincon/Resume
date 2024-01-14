@@ -40,6 +40,14 @@ hr {
     grid-template-columns: 1fr  2fr;
 
 }
+
+.link-certificado{
+    color: #0028ef;
+    text-decoration: none;
+    
+    
+}
+
 .container .left_Side
 {
     position: relative;
@@ -100,16 +108,21 @@ hr {
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
-.contactInfo ul
-{
-    position: relative;
+ul {
+    /* Your styles for ul */
+
+    
+    padding: 0;
+    margin: 0;
+    
 }
-.contactInfo ul li
-{
-    position: relative;
+
+.list li {
+    /* Your styles for li */
+    padding: 0;
+    margin: 5px 0;
     list-style: none;
-    margin: 10px 0;
-    cursor: pointer;
+
 }
 
 .contactInfo ul li .icon
